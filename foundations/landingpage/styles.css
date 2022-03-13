@@ -1,0 +1,196 @@
+body {
+  font-family: "Montserrat", sans-serif;
+  margin: 0;
+}
+
+.nav {
+  background-color: #1f2937;
+  padding: 15px;
+  color: #f9faf8;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 9999;
+  width: 100%;
+}
+
+.nav .logo a {
+  font-size: 64px;
+  font-weight: 900;
+  padding: 4px 32px;
+  color: #faed27;
+}
+
+ul {
+  list-style-type: none;
+  display: flex;
+  margin: 0;
+  padding: 0;
+  gap: 15px;
+  padding: 4px 32px;
+}
+
+.nav a {
+  font-size: 18px;
+  padding: 8px;
+  text-decoration: none;
+  color: #faed27;
+}
+
+.nav a:hover {
+  color: aqua;
+}
+
+.learn-section {
+  max-height: 100vh;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  padding: 50px 50px 170px 50px;
+  background-color: #1f2937;
+  color: #f9faf8;
+  margin-top: 50px;
+  margin-bottom: 110px;
+}
+
+.about {
+  width: 50vw;
+}
+
+.about h1 {
+  font-size: 28px;
+}
+
+.about p {
+  font-size: 14px;
+}
+
+.about button {
+  background-color: #faed27;
+  padding: 10px;
+  border-radius: 25px;
+  border-color: transparent;
+}
+
+.about button a {
+  color: #1f2937;
+  padding: 8px;
+  font-weight: 700;
+  text-decoration: none;
+  font-size: 16px;
+}
+
+button a:hover {
+  color: crimson;
+}
+.feature-image img {
+  width: 35vw;
+  height: auto;
+}
+
+.remember-section {
+  max-height: none;
+  padding: 0px 50px 80px 50px;
+}
+
+.remember-section h2 {
+  font-size: 64px;
+  text-align: center;
+  font-weight: 1000;
+  color: #1f2937;
+}
+
+.memory-cards {
+  display: flex;
+  justify-content: center;
+  align-items: baseline;
+  padding: 25px;
+  text-align: center;
+  gap: 50px;
+  flex-wrap: wrap;
+}
+
+.memory-cards .memory img {
+  width: 300px;
+  height: 200px;
+}
+
+.memory-cards .memory {
+  width: 300px;
+  height: auto;
+}
+
+.memory-cards .memory p {
+  font-weight: 900;
+  font-size: 24px;
+  background: #faed27;
+}
+
+.inspire-section {
+  background-color: #e5e7eb;
+  max-height: 100vh;
+  padding: 350px 50px;
+  text-align: center;
+}
+
+.inspire-section .quote {
+  font-style: italic;
+  font-weight: 100;
+  color: #1f2937;
+  font-size: 48px;
+}
+
+.inspire-section .quote-name {
+  font-weight: 1000;
+  color: #1f2937;
+  font-size: 24px;
+}
+
+.explore-section {
+  max-height: 100vh;
+  padding: 150px 20px;
+  display: flex;
+  justify-content: center;
+}
+
+.explore-content {
+  border-radius: 15px;
+  width: 50vw;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 50px;
+  background-color: #faed27;
+  padding: 50px;
+}
+
+.explore-content button {
+  background-color: #1f2937;
+  padding: 16px;
+  border-radius: 25px;
+  border-color: transparent;
+}
+
+.explore-content button a {
+  color: #faed27;
+  text-decoration: none;
+  font-size: 18px;
+  font-family: "Montserrat", sans-serif;
+}
+
+button a:hover {
+  color: crimson;
+}
+
+.footer {
+  height: 72px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 72px;
+  background-color: #1f2937;
+  color: #faed27;
+}
